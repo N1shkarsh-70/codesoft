@@ -2,7 +2,7 @@ import streamlit as st
 import math
 import pickle
 
-with open("titanic\model.pkl",'rb') as f:
+with open("Titanic\model.pkl",'rb') as f:
     model = pickle.load(f)
 
 st.header("Titanic Survival Prediction using Machine Learning")
